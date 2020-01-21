@@ -4,8 +4,8 @@ body{
 }
 .App{
   background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
-  min-height: 700px;
-  width: 400px;
+  min-height: 800px;
+  width: 500px;
   margin: 30px auto;
 }
 #to-do-form input{
@@ -20,6 +20,7 @@ body{
   color: #111;
   font-family: 'Bangers', cursive;
   letter-spacing: .5px;
+  padding-right: 90px;
 }
 #to-do-form::placeholder{
   background-image: linear-gradient(to right, #434343 0%, black 100%);
@@ -28,8 +29,9 @@ body{
   outline: none;
 }
 #to-do-form button{
+  position: relative;
   height: 50px;
-  width: 80px;
+  width: 120px;
   border-radius: 5px;
   border: 0;
   background-image: linear-gradient(to right, #f9d423 0%, #f9d421 100%);
